@@ -54,9 +54,9 @@ errorBtns[9].addEventListener('click', () => {
   
 // Console table
 errorBtns[10].addEventListener('click', () => {
-	const course1 = {name:"CSE", num:"110"}
-	const course2 = {name:"CSE", num:"130"}
-	const course3 = {name:"CSE", num:"112"}
+	const course1 = {name:"Software Engineering", num:"110"}
+	const course2 = {name:"Advanced Software Engineering", num:"130"}
+	const course3 = {name:"Programming Languages: Principles and Paradigms", num:"112"}
   
 	console.table([course1, course2, course3]);
 })
